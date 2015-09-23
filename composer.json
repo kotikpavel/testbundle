@@ -1,0 +1,30 @@
+{
+    "name": "kotik/testbundle",
+    "description": "My Test bundle",
+    "type": "symfony-bundle",
+    "authors": [{
+        "name": "Kotik",
+        "email": "pavlikkolomitkin@gmail.com"
+    }],
+    "keywords": [
+        "kotik test"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Kotik\\TestBundle" : ""
+        }
+    },
+    "target-dir" : "Kotik/TestBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "0.0.1-dev"
+        }
+    }
+}

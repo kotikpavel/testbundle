@@ -1,3 +1,7 @@
 kotik_test_homepage:
     path:     /hello/{name}
     defaults: { _controller: KotikTestBundle:Default:index }
+
+kotik_test_items:
+    path: /items
+    defaults: { _controller: KotikTestBundle:Default:items }
